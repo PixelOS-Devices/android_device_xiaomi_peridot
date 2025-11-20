@@ -1,0 +1,28 @@
+[
+  {
+    "repository": "peridot-dev/android_packages_apps_XiaomiDolby",
+    "target_path": "packages/apps/XiaomiDolby",
+    "branch": "lineage-23.0"
+  },
+  {
+    "repository": "PixelOS-AOSP/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "PixelOS-Devices/android_kernel_xiaomi_sm8635",
+    "target_path": "kernel/xiaomi/8635"
+  },
+  {
+    "repository": "PixelOS-Devices/android_kernel_xiaomi_sm8635-devicetrees",
+    "target_path": "kernel/xiaomi/sm8635-devicetrees"
+  },
+  {
+    "repository": "PixelOS-Devices/android_kernel_xiaomi_sm8635-modules",
+    "target_path": "kernel/xiaomi/sm8635-modules"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "NoPrincessHere/proprietary_vendor_xiaomi_peridot",
+    "target_path": "vendor/xiaomi/peridot"
+  }
+]
