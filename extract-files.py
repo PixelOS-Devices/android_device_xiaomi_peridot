@@ -61,6 +61,11 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libbinder_shim.so')
         .add_needed('libinput_shim.so')
         .remove_needed('android.hidl.base@1.0.so'),
+    'system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so': blob_fixup()
+        .replace_needed(
+            'libprotobuf-cpp-full.so',
+            'libprotobuf-cpp-full-21.7.so'
+    ),
     (
         'odm/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl',
         'odm/lib64/camera/plugins/com.xiaomi.plugin.anchor.so',
