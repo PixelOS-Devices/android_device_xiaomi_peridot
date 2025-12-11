@@ -10,7 +10,7 @@
   },
   {
     "repository": "PixelOS-Devices/android_kernel_xiaomi_sm8635",
-    "target_path": "kernel/xiaomi/8635"
+    "target_path": "kernel/xiaomi/sm8635"
   },
   {
     "repository": "PixelOS-Devices/android_kernel_xiaomi_sm8635-devicetrees",
