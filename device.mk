@@ -282,10 +282,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ApertureOverlayPeridot \
     CarrierConfigOverlayPeridot \
+    CustomSettingsOverlayGarnet \
     FrameworkOverlayPeridot \
-    LineageDialerOverlayPeridot \
-    LineageSDKOverlayPeridot \
-    LineageSettingsOverlayPeridot \
     NfcOverlayPeridot \
     SecureElementOverlayPeridot \
     SettingsOverlayPeridot \
