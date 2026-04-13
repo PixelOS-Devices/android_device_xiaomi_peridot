@@ -1,6 +1,6 @@
 [
   {
-    "repository": "PixelOS-AOSP/android_hardware_xiaomi",
+    "repository": "LineageOS/android_hardware_xiaomi",
     "target_path": "hardware/xiaomi"
   },
   {
